@@ -1,0 +1,27 @@
+:root {
+    --main-bg-color: rgb(1, 176, 117);
+}
+
+.large {
+    font-size: 2rem;
+}
+
+.text-primary {
+    color: var(--main-bg-color);
+}
+
+.lead {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.form-group input[type='text'], input[type='password'] {
+    margin: 10px;
+    display: block;
+}
+.Register, .Login{
+    text-align: center;
+}
+.formRegister, .formLogin{
+    display: inline-block;
+}
